@@ -1,0 +1,14 @@
+$(function(){
+	$(".sm").click(function(){
+		$(".code").show();
+		$(".account").hide();
+		$(".sm>a").css({"color":"#e4393c"});
+		$(".zh>a").css({"color":"#666"});
+	})
+	$(".zh").click(function(){
+		$(".code").hide();
+		$(".account").show();
+		$(".zh>a").css({"color":"#e4393c"});
+		$(".sm>a").css({"color":"#666"});
+	})
+})

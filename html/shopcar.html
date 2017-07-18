@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/shopcar.css" />
+	<script src="../js/shopcar.js"></script>
+</head>
+<body>
+	<!-- 头部导航 -->
+	<div id="header">
+		<div id="nav" class="wrap">
+			<div class="address fl"><p class="fl">送至:北京</p><i class="ci fl"></i></div>
+			<ul class="fr">
+				<li><div><a href="#">登录</a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">我的订单</a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">我的京东<i class="ci fr"></i></a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">京东会员</a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">企业采购</a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#"><i class="phone-css fl"></i>手机京东<i class="ci fr"></i></a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">关注京东<i class="ci fr"></i></a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">客户服务<i class="ci fr"></i></a></div></li>
+				<li class="vertical"></li>
+				<li><div><a href="#">网站导航<i class="ci fr"></i></a></div></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 京东logo和搜索框 -->
+	<div id="logo">
+		<div id="JD-logo" class="wrap">
+			<a href="#" class="fl"><img src="../images/logo-201305.png" /></a>
+			<div id="search" class="fr">
+				<input class="search-in fl" type="text" placeholder="自营" />
+				<input class="search-btn fl" type="button" value="搜索" />
+			</div>
+		</div>
+	</div>
+	<!-- 购物车 -->
+	<div id="center" class="wrap">
+		<div class="center-top">
+			<a href="#" class="fl">全部商品</a>
+			<h2 class="fl">京东大药房</h2>
+			<div class="distribution fr">
+				<p class="fl">配送至 ：</p>
+				<input class="fl" type="text" placeholder="请输入您的地址" />
+			</div>
+		</div>
+		<div class="center-title">
+			<div class="t-checkbox fl"><input type="checkbox" id="check-all1"/><label for="check-all1">全选</label></div>
+			<div class="t-goods fl">商品</div>
+			<div class="t-props fl">样式</div>
+			<div class="t-price fl">单价</div>
+			<div class="t-quantity fl">数量</div>
+			<div class="t-sum fl">小计</div>
+			<div class="t-action fl">操作</div>
+		</div>
+		<div class="shop">
+			<input type="checkbox" id="shop-all"  class="fl"/>
+			<a href="#" class="fl"></a>
+		</div>
+		<div id="good-box1" class="box">
+			<input id="ci1" type="checkbox" />
+			<div class="item">
+				<div class="g-good fl">
+					<img src="../images/5825a5a6Nde8ecb75.jpg"  class="good-img fl"/>
+					<div class="good-msg fl">
+						<a href="#none">荣耀 畅玩6X 4GB 32GB 全网通4G手机 高配版 铂光金</a>
+						<div class="seven">
+							<i class="fl"></i>
+							<p class="fl">支持7天无理由退货</p>
+						</div>
+					</div>
+				</div>
+				<div class="g-props fl">尺码：55英寸4k</div>
+				<div class="g-price fl">
+					<span>￥</span><span id="p1">1290.00</span>
+					<a href="#">更多促销 <i></i></a>
+				</div>
+				<div class="g-quantity fl">
+					<div class="num">
+						<a href="#none" class="fl" id="sub1">-</a>
+						<input type="text" value="1" id="count1"  class="fl"/>
+						<a href="#none" class="fl" id="add1">+</a>
+					</div>
+					<div class="cargo">有货</div>
+				</div>
+				<div class="g-sum fl">
+					<span>￥</span><strong id="s11">1290.00</strong>
+					<p>4kg</p>
+				</div>
+				<div class="g-action fl">
+					<a href="#" >删除</a>
+					<a href="#" >移到我的关注</a>
+				</div>
+			</div>
+		</div>
+		<div id="good-box2" class="box">
+			<input id="ci2" type="checkbox" />
+			<div class="item">
+				<div class="g-good fl">
+					<img src="../images/2.jpg"  class="good-img fl"/>
+					<div class="good-msg fl">
+						<a href="#">Apple iPhone 7 Plus 128G 红色特别版 移动联通电信4G手机</a>
+						<div class="seven">
+							<i class="fl"></i>
+							<p class="fl">支持7天无理由退货</p>
+						</div>
+					</div>
+				</div>
+				<div class="g-props fl">颜色：红色特别版</div>
+				<div class="g-price fl">
+					<span>￥</span><span id="p2">5000.00</span>
+					<a href="#">更多促销 <i></i></a>
+				</div>
+				<div class="g-quantity fl">
+					<div class="num">
+						<a href="#none" class="fl" id="sub2">-</a>
+						<input type="text" value="1" id="count2"  class="fl"/>
+						<a href="#none" class="fl" id="add2">+</a>
+					</div>
+					<div class="cargo">有货</div>
+				</div>
+				<div class="g-sum fl">
+					<span>￥</span><strong id="s12">5000.00</strong>
+					<p>0.48kg</p>
+				</div>
+				<div class="g-action fl">
+					<a href="#" >删除</a>
+					<a href="#" >移到我的关注</a>
+				</div>
+			</div>
+		</div>
+		<div id="good-box3" class="box">
+			<input id="ci3" type="checkbox" />
+			<div class="item">
+				<div class="g-good fl">
+					<img src="../images/3.jpg"  class="good-img fl"/>
+					<div class="good-msg fl">
+						<a href="#">戴尔DELL灵越游匣15PR-2648B 15.6英寸游戏笔记本电脑(i5-6300HQ 4G </a>
+						<div class="seven">
+							<i class="fl"></i>
+							<p class="fl">支持7天无理由退货</p>
+						</div>
+					</div>
+				</div>
+				<div class="g-props fl">颜色：精锐版 i5-6300HQ</div>
+				<div class="g-price fl">
+					<span>￥</span><span id="p3">5000.00</span>
+					<a href="#">更多促销 <i></i></a>
+				</div>
+				<div class="g-quantity fl">
+					<div class="num">
+						<a href="#none" class="fl" id="sub3">-</a>
+						<input type="text" value="1" id="count3"  class="fl"/>
+						<a href="#none" class="fl" id="add3">+</a>
+					</div>
+					<div class="cargo">有货</div>
+				</div>
+				<div class="g-sum fl">
+					<span>￥</span><strong id="s13">5000.00</strong>
+					<p>4kg</p>
+				</div>
+				<div class="g-action fl">
+					<a href="#" >删除</a>
+					<a href="#" >移到我的关注</a>
+				</div>
+			</div>
+		</div>
+		<div class="pay">
+			<div class="total fl">
+				<div class="total-check fl"><input type="checkbox" id="check-all2"/><label for="check-all2">全选</label></div>
+				<div class="del fl">
+					<a href="#" class="fl">删除选中的商品</a>
+					<a href="#" class="fl">移到我的关注</a>
+					<a href="#" class="fl">清除下柜商品</a>
+				</div>
+				<div class="total-money fr">
+					<span class="txt">总价：</span>
+					<span>￥</span><span id="s2" >0.00</span>
+					<img src="../images/price-tips.png" />
+					<div>
+						<span class="txt ">已节省：</span>
+						<span class="">-￥0.00</span>
+					</div>
+				</div>
+				<div class="total-num fr">已选择 <strong id="s3">0</strong> 件商品</div>
+			</div>
+			<div class="pay-btn fl"><input type="button" value="去结算" /></div>
+		</div>
+	</div>
+	<!-- 猜你喜欢 -->
+	<div id="guess" class="wrap">
+		<div class="guess-top">
+			<a href="#" class="fl">猜你喜欢</a>
+			<ul class="fr">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div id="gu-list">
+			<ul>
+				<li><a class="a1" href="#"><img src=""  /><p></p></a>
+					<a class="a2" href="#"><i class="fl"></i><span class="fl">加入购物车</span></a>
+				</li>
+				<li><a class="a1" href="#"><img src=""  /><p></p></a>
+					<a class="a2" href="#"><i class="fl"></i><span class="fl">加入购物车</span></a></li>
+				<li><a class="a1" href="#"><img src=""  /><p></p></a>
+					<a class="a2" href="#"><i class="fl"></i><span class="fl">加入购物车</span></a>
+				</li>
+				<li><a class="a1" href="#"><img src=""  /><p></p></a>
+					<a class="a2" href="#"><i class="fl"></i><span class="fl">加入购物车</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
