@@ -11,4 +11,11 @@ $(function(){
 		$(".zh>a").css({"color":"#e4393c"});
 		$(".sm>a").css({"color":"#666"});
 	})
+	$(".denglu").click(function(){
+		var account = $("#account").val();
+		var pwd = $("#password").val();
+		if(account&&pwd){
+			window.location.href="../index.html";
+		}
+	})
 })
